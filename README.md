@@ -8,7 +8,9 @@ In given I will change a version to one with some options that can be included i
 
 Function...
 
-$ ('.marker'). Bookmark ();
+```javascript
+$('.marker').Bookmark();
+```
 
 NOTE: It is always good to remember that you have to put a function below jquery.
 
@@ -45,9 +47,13 @@ It was created due to a business demand.
 ## Tests
 
 
-`<addr>`<span class = "marker"> The value of Lorem ipsum is equal to that of amet, consectetur adipisicing elit. Quae rerum, laboriosam adipisci voluptates major, quaerat doloremque neque praesentium, dolorem minus voluptas magna itaque perferendis commodi iste id. Escape, natus, alias! </span>
+```javascript
+<span class = "marker"> The value of Lorem ipsum is equal to that of amet, consectetur adipisicing elit. Quae rerum, laboriosam adipisci voluptates major, quaerat doloremque neque praesentium, dolorem minus voluptas magna itaque perferendis commodi iste id. Escape, natus, alias! </span>
+```
 
-$ ('.marker'). Bookmark ();
+```javascript
+$('.marker').Bookmark();
+```
 
 #PT-Br
 
@@ -61,7 +67,9 @@ Em determinado vou mudar uma versão para uma com algumas opções que podem ser
 
 função...
 
-$ ('. Marcador'). Bookmark ();
+```javascript
+$('.marker').Bookmark();
+```
 
 OBS: semper e bom lembrar que é preciso colocar uma função abaixo do jquery.
 
@@ -99,6 +107,9 @@ Foi criada devido a uma demanda empresarial.
 ## Testes
 
 
-<span class = "marker"> O valor de Lorem ipsum é igual ao de amet, consectetur adipisicing elit. Quae rerum, laboriosam adipisci voluptates maiores, quaerat doloremque neque praesentium, dolorem minus voluptas magna itaque perferendis commodi iste id. Fuga, natus, alias! </span>
-
-$ ('. Marcador'). Bookmark ();
+```javascript
+<span class = "marker"> The value of Lorem ipsum is equal to that of amet, consectetur adipisicing elit. Quae rerum, laboriosam adipisci voluptates major, quaerat doloremque neque praesentium, dolorem minus voluptas magna itaque perferendis commodi iste id. Escape, natus, alias! </span>
+```
+```javascript
+$('.marker').Bookmark();
+```
