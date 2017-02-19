@@ -1,6 +1,6 @@
 ## Synopsis
 
-Plugin in jquery, to be a dynamic marker, by proximity. The plugin maps all the elements marked and placed in an array to the top position of each element, then calculating the element proximity calculator element in each marker and active by one, independent.
+Plugin in jquery, to be a dynamic marker, by proximity. The plugin maps all the elements marked and placed in an array to the top *position* of each element, then calculating the element proximity calculator element in each marker and active by one, independent.
 
 In given I will change a version to one with some options that can be included in a function.
 
@@ -14,7 +14,13 @@ NOTE: It is always good to remember that you have to put a function below jquery
 
 ```javascript
 <script src = "// ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"> </script>
-<script src = "script.js"> </script>
+<script src = "bookmark.js"> </script>
+```
+
+NOTE: bookmark.css header
+
+```javascript
+<link rel="stylesheet" href="bookmark.css">
 ```
 
 
@@ -25,15 +31,15 @@ It was created due to a business demand.
 
 ## API Reference
 
-*.each()
+* .each()
 	[jquey documentation](https://api.jquery.com/each/)
-*.posição()
+* .posição()
 	[jquey documentation](https://api.jquery.com/position)
-*.mousemove()
+* .mousemove()
 	[jquey documentation](https://api.jquery.com/mousemove/)
-*.slice()
+* .slice()
 	[jquey documentation](https://api.jquery.com/slice/)
-*.addClass()
+* .addClass()
 	[jquey documentation](https://api.jquery.com/addclass/)
 
 ## Tests
@@ -61,7 +67,13 @@ OBS: semper e bom lembrar que é preciso colocar uma função abaixo do jquery.
 
 ```javascript
 <script src = "// ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"> </script>
-<script src = "script.js"> </script>
+<script src = "bookmark.js"> </script>
+```
+
+NOTE: bookmark.css no header
+
+```javascript
+<link rel="stylesheet" href="bookmark.css">
 ```
 
 
@@ -72,15 +84,15 @@ Foi criada devido a uma demanda empresarial.
 
 ## Referência da API
 
-*.each()
+* .each()
 	[jquey documentation](https://api.jquery.com/each/)
-*.posição()
+* .posição()
 	[jquey documentation](https://api.jquery.com/position)
-*.mousemove()
+* .mousemove()
 	[jquey documentation](https://api.jquery.com/mousemove/)
-*.slice()
+* .slice()
 	[jquey documentation](https://api.jquery.com/slice/)
-*.addClass()
+* .addClass()
 	[jquey documentation](https://api.jquery.com/addclass/)
 
 
