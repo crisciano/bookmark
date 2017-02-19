@@ -12,8 +12,10 @@ $ ('.marker'). Bookmark ();
 
 NOTE: It is always good to remember that you have to put a function below jquery.
 
-`<addr>`<script src = "// ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"> </script>
-`<addr>`<script src = "script.js"> </script>
+```javascript
+<script src = "// ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"> </script>
+<script src = "script.js"> </script>
+```
 
 
 ## Motivation
@@ -23,18 +25,16 @@ It was created due to a business demand.
 
 ## API Reference
 
-.each()
-	[GitHub](https://api.jquery.com/each/)
-.posição()
-	[GitHub](https://api.jquery.com/position)
-.mousemove()
-	[GitHub](https://api.jquery.com/mousemove/)
-.slice()
-	[GitHub](https://api.jquery.com/slice/)
-.addClass()
-	[GitHub](https://api.jquery.com/addclass/)
-
-Depending on the size of the project, if it is small and simple, reference documents can be added to the README. For larger to medium-sized projects, it is important to at least provide a link to where API reference documents live.
+*.each()
+	[jquey documentation](https://api.jquery.com/each/)
+*.posição()
+	[jquey documentation](https://api.jquery.com/position)
+*.mousemove()
+	[jquey documentation](https://api.jquery.com/mousemove/)
+*.slice()
+	[jquey documentation](https://api.jquery.com/slice/)
+*.addClass()
+	[jquey documentation](https://api.jquery.com/addclass/)
 
 ## Tests
 
@@ -59,8 +59,10 @@ $ ('. Marcador'). Bookmark ();
 
 OBS: semper e bom lembrar que é preciso colocar uma função abaixo do jquery.
 
-`<addr>`<script src = "// ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"> </script>
-`<addr>`<script src = "script.js"> </script>
+```javascript
+<script src = "// ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"> </script>
+<script src = "script.js"> </script>
+```
 
 
 ## Motivação
@@ -70,18 +72,17 @@ Foi criada devido a uma demanda empresarial.
 
 ## Referência da API
 
-.each()
-	[GitHub](https://api.jquery.com/each/)
-.posição()
-	[GitHub](https://api.jquery.com/position)
-.mousemove()
-	[GitHub](https://api.jquery.com/mousemove/)
-.slice()
-	[GitHub](https://api.jquery.com/slice/)
-.addClass()
-	[GitHub](https://api.jquery.com/addclass/)
+*.each()
+	[jquey documentation](https://api.jquery.com/each/)
+*.posição()
+	[jquey documentation](https://api.jquery.com/position)
+*.mousemove()
+	[jquey documentation](https://api.jquery.com/mousemove/)
+*.slice()
+	[jquey documentation](https://api.jquery.com/slice/)
+*.addClass()
+	[jquey documentation](https://api.jquery.com/addclass/)
 
-Dependendo do tamanho do projeto, se for pequeno e simples, os documentos de referência podem ser adicionados ao README. Para projetos de tamanho médio a maior, é importante, pelo menos, fornecer um link para onde os documentos de referência da API vivem.
 
 ## Testes
 
