@@ -15,10 +15,12 @@
         };
         if (options){$.extend(config, options);}
 	        $(elem).each(function() {
-	        	position.push($(this).position().top);
+	        	position.push($(this).offset().top);
 	        });
+            console.log(position);
 	        $(document).on('mousemove', function(event) {
 				$.each(position ,function(i) {
+                    console.log(event.pageY);
 					if ( event.pageY >= position[i] ) {
 						$(elem).slice(i , i+1).addClass('effect animate');
 					}				
